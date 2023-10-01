@@ -46,4 +46,27 @@ A solução proposta usa uma abordagem de aprendizado incremental para atualizar
 Em resumo, a abordagem proposta de CKL usa uma combinação de técnicas de aprendizado incremental e regularização para lidar com o problema de concept drift em modelos de linguagem. Cada bloco tem uma responsabilidade clara e trabalha em conjunto para garantir que o modelo de linguagem permaneça atualizado e preciso ao longo do tempo.
 
 **Conclusão**
+
+A abordagem proposta de Continual Knowledge Learning (CKL) é uma solução promissora para lidar com o problema de concept drift em modelos de linguagem. A combinação de técnicas de aprendizado incremental e regularização permite que o modelo de linguagem seja atualizado com novos dados relevantes sem perder o conhecimento anteriormente adquirido. 
+
+No entanto, a implementação dessa abordagem pode exigir um esforço significativo, especialmente em termos de coleta e integração de novos dados relevantes. Além disso, a escolha das técnicas de aprendizado incremental e regularização adequadas pode ser um desafio, exigindo uma compreensão profunda das características do modelo de linguagem e dos dados relevantes. 
+
+Apesar desses desafios, a implementação da abordagem proposta de CKL pode trazer benefícios significativos, como a capacidade de manter modelos de linguagem atualizados e precisos ao longo do tempo. Isso pode ser especialmente importante em cenários em que o conhecimento do mundo real muda rapidamente, como em aplicações de processamento de linguagem natural em tempo real. 
+
+Em conclusão, a abordagem proposta de CKL é uma solução promissora para lidar com o problema de concept drift em modelos de linguagem. Embora a implementação possa exigir um esforço significativo, os benefícios potenciais podem torná-la uma opção valiosa para manter modelos de linguagem atualizados e precisos ao longo do tempo.
+
 **Referências Bibliográficas**
+
+De Cao, N., Aziz, W., & Titov, I. (2021). Editing factual knowledge in language models. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).
+
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT).
+
+Dhingra, B., Cole, J. R., Eisenschlos, J. M., Gillick, D., Eisenstein, J., & Cohen, W. W. (2021). Time-aware language models as temporal knowledge bases. arXiv preprint arXiv:2106.15110.
+
+Dinan, E., Roller, S., Shuster, K., Fan, A., Auli, M., & Weston, J. (2019). Wizard of wikipedia: Knowledge-powered conversational agents. In International Conference on Learning Representations (ICLR).
+
+Elsahar, H., Vougiouklis, P., Remaci, A., Gravier, C., Hare, J., Simperl, E., & Laforest, F. (2018). T-rex: A large scale alignment of natural language with knowledge base triples. In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC).
+
+Tiedemann, J., & Thottingal, S. (2020). OPUS-MT — Building open translation services for the World. In Proceedings of the 22nd Annual Conference of the European Association for Machine Translation (EAMT).
+
+Verga, P., Sun, H., Baldini Soares, L., & Cohen, W. W. (2021). Facts as experts: Adaptable and interpretable neural memory over symbolic knowledge. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT).
